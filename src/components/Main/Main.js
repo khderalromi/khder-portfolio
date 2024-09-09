@@ -4,7 +4,6 @@ import two from '../../assests/images/two.gif';
 import python from '../../assests/images/python-2.gif';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useEffect } from 'react';
-import { Navigate } from 'react-router';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { faBootstrap, faCss3, faFacebook, faGithub, faGoogle, faHtml5, faJs, faLinkedin, faReact } from '@fortawesome/free-brands-svg-icons';
