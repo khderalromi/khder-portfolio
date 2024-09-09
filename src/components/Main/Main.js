@@ -1,12 +1,10 @@
-import five from '../../assests/images/five.png';
-import developer from '../../assests/images/200w.gif';
 import mad from '../../assests/images/mad.jpg';
 import three from '../../assests/images/three.gif';
 import two from '../../assests/images/two.gif';
-import images from '../../assests/images/images.png';
 import python from '../../assests/images/python-2.gif';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useEffect } from 'react';
+import { Navigate } from 'react-router';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { faBootstrap, faCss3, faFacebook, faGithub, faGoogle, faHtml5, faJs, faLinkedin, faReact } from '@fortawesome/free-brands-svg-icons';
@@ -190,7 +188,9 @@ const Main=(props)=>{
                     <div className='shadow-lg flex flex-col gap-2 p-3 md:p-7ml-10 md:ml-28' data-aos='zoom-in'>
                         <div className=' text-center text-slate-600'>
                             <img></img>
-                            <strong>E-Commerce</strong>
+                            <a href='https://e-commerce-h5xz.onrender.com' target='blank' >
+                                <strong className='text-cyan-400'>E-Commerce</strong>
+                            </a> 
                         </div>
 
                         <p className='text-slate-500 text-xSmall sm:text-small md:text-xs lg:text-sm ml-2'>
@@ -213,7 +213,10 @@ const Main=(props)=>{
                     <div className='shadow-lg flex flex-col gap-2 p-3 md:p-7 ml-10 md:ml-28' data-aos='zoom-in'>
                         <div className=' text-center text-slate-600'>
                             <img></img>
-                            <strong>Cars Gallery</strong>
+                            <a href='https://car-3kh.onrender.com' target='blank' >
+                                <strong className='text-cyan-400'>Cars Gallery</strong>
+                            </a>
+                            
                         </div>
 
                         <p className='text-slate-500 text-xSmall sm:text-small md:text-xs lg:text-sm ml-2'>
@@ -234,7 +237,10 @@ const Main=(props)=>{
                     <div className='shadow-lg flex flex-col gap-2 p-3 md:p-7ml-10 md:ml-28' data-aos='zoom-in'>
                         <div className=' text-center text-slate-600'>
                             <img></img>
-                            <strong>Burger Builder</strong>
+                            <a href='https://burgerbuilder-6.onrender.com' target='blank'>
+                               <strong className='text-cyan-400'>Burger Builder</strong> 
+                            </a>
+                            
                         </div>
 
                         <p className='text-slate-500 text-xSmall sm:text-small md:text-xs lg:text-sm ml-2'>
